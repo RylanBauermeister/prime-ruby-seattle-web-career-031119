@@ -5,7 +5,7 @@ def prime?(num)
     return false
   end
   
-  for i in 2...num/2
+  for i in 2...(num/2)+1
     if num % i == 0
       return false
     end
