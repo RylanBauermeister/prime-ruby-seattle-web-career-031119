@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  num = Math.abs(num)
+  num = num.abs
   for i in 2...num/2
     if num % i == 0
       return false
